@@ -203,11 +203,11 @@ Transform:
   m_GameObject: {fileID: 178370001}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0.9999571, w: -0.009270305}
-  m_LocalPosition: {x: 3.81, y: -1.62, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 1087172944}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: -181.062}
 --- !u!61 &178370004
 BoxCollider2D:
@@ -424,7 +424,7 @@ Rigidbody2D:
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
-  m_Mass: 1
+  m_Mass: 10
   m_LinearDrag: 10
   m_AngularDrag: 0.05
   m_GravityScale: 0
@@ -888,7 +888,7 @@ Rigidbody2D:
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
-  m_Mass: 1
+  m_Mass: 10
   m_LinearDrag: 10
   m_AngularDrag: 0.05
   m_GravityScale: 0
@@ -1067,11 +1067,11 @@ Transform:
   m_GameObject: {fileID: 386945871}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: 0.12247657, w: 0.99247146}
-  m_LocalPosition: {x: 3.71, y: 1.52, z: 0}
+  m_LocalPosition: {x: -0.099999905, y: 3.1399999, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 1087172944}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 14.07}
 --- !u!61 &386945874
 BoxCollider2D:
@@ -1225,11 +1225,11 @@ Transform:
   m_GameObject: {fileID: 438172923}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0.98506653, w: -0.1721744}
-  m_LocalPosition: {x: 5.4, y: -1.72, z: 0}
+  m_LocalPosition: {x: 1.5900002, y: -0.100000024, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 1087172944}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: -199.829}
 --- !u!61 &438172926
 BoxCollider2D:
@@ -1892,6 +1892,41 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1 &1087172943
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1087172944}
+  m_Layer: 0
+  m_Name: Chairs
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1087172944
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1087172943}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 3.81, y: -1.62, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 386945873}
+  - {fileID: 2049657379}
+  - {fileID: 438172925}
+  - {fileID: 178370003}
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1103441446
 GameObject:
   m_ObjectHideFlags: 0
@@ -2193,7 +2228,7 @@ Rigidbody2D:
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
-  m_Mass: 1
+  m_Mass: 10
   m_LinearDrag: 10
   m_AngularDrag: 0.05
   m_GravityScale: 0
@@ -2686,7 +2721,7 @@ Rigidbody2D:
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
-  m_Mass: 1
+  m_Mass: 10
   m_LinearDrag: 10
   m_AngularDrag: 0.05
   m_GravityScale: 0
@@ -3091,12 +3126,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2049657377}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 5.46, y: 1.52, z: 0}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 1.6500001, y: 3.1399999, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 1087172944}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!61 &2049657380
 BoxCollider2D:
@@ -3179,17 +3214,14 @@ SceneRoots:
   - {fileID: 314648030}
   - {fileID: 1922175479}
   - {fileID: 642814847}
+  - {fileID: 1087172944}
   - {fileID: 270033731}
-  - {fileID: 386945873}
-  - {fileID: 2049657379}
-  - {fileID: 438172925}
-  - {fileID: 178370003}
   - {fileID: 1704003837}
+  - {fileID: 1137140716}
   - {fileID: 223191916}
   - {fileID: 1972155420}
   - {fileID: 229400184}
   - {fileID: 1103441448}
   - {fileID: 234797299}
   - {fileID: 1366532232}
-  - {fileID: 1137140716}
   - {fileID: 730658101}
